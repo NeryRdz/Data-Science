@@ -216,3 +216,119 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+
+
+
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== JUPYTER NOTEBOOKS =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# ===== ENTORNOS VIRTUALES =====
+venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# ===== IDE & EDITORS =====
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ===== DATOS GRANDES (IMPORTANTE!) =====
+# No subas archivos de datos crudos grandes
+*/data/raw/**/*.csv
+*/data/raw/**/*.xlsx
+*/data/raw/**/*.parquet
+*/data/raw/**/*.zip
+*/data/raw/**/*.tar.gz
+*.csv
+*.xlsx
+*.parquet
+*.json
+!*/data/README.md
+
+# Excepciones: Datos pequeños de ejemplo (< 1MB)
+!*/data/raw/sample*.csv
+
+# ===== MODELOS ENTRENADOS GRANDES =====
+*/results/models/**/*.pkl
+*/results/models/**/*.h5
+*/results/models/**/*.joblib
+*.pkl
+*.h5
+*.joblib
+
+# ===== LOGS & CACHE =====
+*.log
+logs/
+*.log.*
+.cache/
+cache/
+temp/
+tmp/
+
+# ===== VARIABLES DE ENTORNO =====
+.env
+.env.local
+.env.*.local
+.env_secret
+
+# ===== ARCHIVOS DEL SISTEMA =====
+Thumbs.db
+.DS_Store
+*.bak
+*.swp
+
+# ===== ESPECÍFICO PARA DATA SCIENCE =====
+# Archivos de procesamiento temporal
+*.tmp
+*.temp
+outputs/
+experiments/
+wandb/
+
+# Pandas profiling
+profile_report.html
+
+# ===== DIRECTORIOS DE SALIDA =====
+# Comentar si quieres incluir algunos resultados
+# /*/results/
