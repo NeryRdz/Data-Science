@@ -6,6 +6,11 @@ An end-to-end Machine Learning project designed to predict diamond prices accura
 
 Valuing diamonds accurately is essential in the jewelry industry. This project builds a predictive pipeline that takes diamond characteristics (such as cut, color, clarity, and physical dimensions) and estimates market prices with high precision.
 
+## ⚙️ Dataset
+
+The dataset used to train and evaluate this model was sourced from Kaggle:
+- **Source:** [Kaggle - Diamonds Dataset](https://www.kaggle.com/datasets/shivam2503/diamonds)
+
 ## 🚀 Key Features & Methodology
 
 1. **Data Preprocessing & Hygiene**:
